@@ -1,0 +1,242 @@
+- id: illuminerf
+  title: "IllumiNeRF 3D Relighting without Inverse Rendering"
+  venue: NeurIPS, 2024
+  description: "3D relighting by distilling samples from a 2D image relighting diffusion model into a latent-variable NeRF."
+  project_page: https://illuminerf.github.io
+  arxiv: 2406.06527
+  image: illuminerf_before.jpg
+  image_mouseover: illuminerf_after.mp4
+  authors:
+    - xiaomingzhao
+    - pratuls
+    - dorverbin
+    - keunhong
+    - rmbrualla
+    - phenzler
+- id: reconfusion
+  title: "ReconFusion: 3D Reconstruction with Diffusion Priors"
+  venue: CVPR, 2024
+  description: "Using an multi-view image conditioned diffusion model to regularize a NeRF enabled few-view reconstruction."
+  project_page: https://reconfusion.github.io
+  arxiv: 2312.02981
+  image: reconfusion_before.png
+  image_mouseover: reconfusion_after.mp4
+  authors:
+    - rundiwu
+    - bmild
+    - phenzler
+    - keunhong
+    - ruiqigao
+    - danielwatson
+    - pratuls
+    - dorverbin
+    - barron
+    - pooleb
+    - holynski
+- id: hypernerf
+  title: "CamP: Camera Preconditioning for Neural Radiance Fields"
+  venue: SIGGRAPH Asia, 2023
+  description: "Preconditioning camera optimization during NeRF training significantly improves their ability to jointly recover the scene and camera parameters."
+  project_page: "https://camp-nerf.github.io"
+  github: jonbarron/camp_zipnerf
+  arxiv: 2308.10902
+  image: camp_before.jpg
+  image_mouseover: camp_after.mp4
+  authors:
+    - keunhong
+    - phenzler
+    - bmild
+    - barron
+    - rmbrualla
+  awards:
+    - "Journal Paper"
+
+- id: hypernerf
+  title: "HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields"
+  venue: SIGGRAPH Asia, 2021
+  description: "By applying ideas from level set methods, we can represent topologically changing scenes with NeRFs."
+  project_page: "https://hypernerf.github.io"
+  github: google/hypernerf
+  arxiv: 2106.13228
+  image: hypernerf_before.jpg
+  image_mouseover: hypernerf_after.mp4
+  authors:
+    - keunhong
+    - utsinh
+    - hedman
+    - barron
+    - sofien
+    - dgo
+    - rmbrualla
+    - smseitz
+
+- id: fignerf
+  title: "FiG-NeRF: Figure Ground Neural Radiance Fields for 3D Object Category Modelling "
+  venue: 3DV, 2021
+  description: "Given a lot of images of an object category, you can train a NeRF to render them from novel views and interpolate between different instances."
+  project_page: "https://fig-nerf.github.io"
+  arxiv: 2104.08418
+  image: fignerf_before.jpg
+  image_mouseover: fignerf_after.mp4
+  authors:
+    - chrisxie
+    - keunhong
+    - rmbrualla
+    - mtbr
+
+- id: nerfies
+  title: "Nerfies: Deformable Neural Radiance Fields"
+  venue: ICCV, 2021
+  description: "Learning deformation fields with a NeRF let's you reconstruct non-rigid scenes with high fidelity."
+  project_page: "https://nerfies.github.io"
+  github: google/nerfies
+  arxiv: 2011.12948
+  image: nerfies_before.jpg
+  image_mouseover: nerfies_after.mp4
+  authors:
+    - keunhong
+    - utsinh
+    - barron
+    - sofien
+    - dgo
+    - smseitz
+    - rmbrualla
+  awards:
+    - "Oral Presentation"
+
+- id: latentfusion
+  title: "LatentFusion: End-to-End Differentiable Reconstruction and Rendering for Unseen Object Pose Estimation "
+  venue: CVPR, 2020
+  description: "By learning to predict geometry from images, you can do zero-shot pose estimation with a single network."
+  project_page: "https://latentfusion.github.io"
+  github: NVlabs/latentfusion
+  arxiv: 1912.00416
+  image: latentfusion_before.jpg
+  image_mouseover: latentfusion_after.mp4
+  authors:
+    - keunhong
+    - amousavian
+    - yux
+    - fox
+
+- id: photoshape
+  title: "PhotoShape: Photorealistic Materials for Large-Scale Shape Collections"
+  venue: SIGGRAPH Asia, 2018
+  description: "By pairing large collections of images, 3D models, and materials, you can create thousands of photorealistic 3D models fully automatically."
+  project_page: "https://photoshape.github.io"
+  github: keunhong/photoshape
+  arxiv: 1809.09761
+  image: photoshape.jpg
+  authors:
+    - keunhong
+    - krematas
+    - ali
+    - smseitz
+  awards:
+    - "Journal Cover"
+
+- title: "Towards Robust Visual SLAM in Dynamic Environments with Deep Learning"
+  authors:
+    - jinguang_tong
+    - xiaojuan_fan
+  venue: "IEEE International Conference on Robotics and Automation (ICRA), 2024"
+  description: "Proposed a novel deep learning-based approach for robust visual SLAM in dynamic environments."
+  image: "icra2024.png"
+  project_page: "#"
+
+- title: "A Survey on Deep Learning-based Visual SLAM: Recent Advances and Future Directions"
+  authors:
+    - jinguang_tong
+    - xiaojuan_fan
+  venue: "Under Review"
+  description: "A comprehensive survey of deep learning methods in visual SLAM, analyzing current trends and future research directions."
+  image: "survey.png"
+  project_page: "#"
+
+- title: "GS-2DGS: Geometrically supervised 2DGS for reflective object reconstruction"
+  authors:
+    - jinguang_tong
+    - xuesong_li
+    - fahira_afzal_maken
+    - sundaram_muthu
+    - chuong_nguyen
+    - hongdong_li
+  venue: "CVPR, 2025"
+  description: "Novel approach for reconstructing reflective objects using geometrically supervised 2D Gaussian Splatting."
+  image: "gs2dgs.png"
+  project_page: "#"
+
+- title: "PMVC: Promoting Multi-View Consistency for 3D Scene Reconstruction"
+  authors:
+    - chushan_zhang
+    - jinguang_tong
+    - tao_jun_lin
+    - chuong_nguyen
+    - hongdong_li
+  venue: "WACV, 2024"
+  description: "A method to enhance multi-view consistency for improved 3D scene reconstruction."
+  image: "pmvc.png"
+  project_page: "#"
+
+- title: "Seeing through the glass: Neural 3D reconstruction of object inside a transparent container"
+  authors:
+    - jinguang_tong
+    - sundaram_muthu
+    - fahira_afzal_maken
+    - chuong_nguyen
+    - hongdong_li
+  venue: "CVPR, 2023"
+  description: "Novel technique for reconstructing objects inside transparent containers using neural networks."
+  image: "glass.png"
+  project_page: "#"
+
+- title: "Voxelized 3D feature aggregation for multiview detection"
+  authors:
+    - jiahao_ma
+    - jinguang_tong
+    - shan_wang
+    - wei_zhao
+    - zicheng_duan
+    - chuong_nguyen
+  venue: "DICTA, 2024"
+  description: "Innovative approach for multiview detection using voxelized 3D feature aggregation."
+  image: "voxel.png"
+  project_page: "#"
+
+- title: "S²GS: Self-supervised Gaussian Segmentation for Automatic 3D Object Scanning"
+  authors:
+    - jinguang_tong
+    - xuesong_li
+    - sundaram_muthu
+    - fahira_afzal_maken
+    - chuong_nguyen
+    - hongdong_li
+  venue: "Under review"
+  description: "Self-supervised approach for automatic 3D object scanning using Gaussian segmentation."
+  image: "s2gs.png"
+  project_page: "#"
+
+- title: "Viewpoint Consistency in 3D Generation via Attention and CLIP Guidance"
+  authors:
+    - qing_zhang
+    - zehao_chen
+    - jinguang_tong
+    - jing_zhang
+    - jie_hong
+    - xuesong_li
+  venue: "arXiv, 2024"
+  description: "Method to improve viewpoint consistency in 3D generation using attention mechanisms and CLIP guidance."
+  image: "viewpoint.png"
+  project_page: "#"
+
+- title: "DGNS: Deformable Gaussian Splatting and Dynamic Neural Surface for Monocular Dynamic 3D Reconstruction"
+  authors:
+    - xuesong_li
+    - jinguang_tong
+    - jie_hong
+    - vivien_rolland
+    - lars_petersson
+  venue: "arXiv, 2024"
+  description: "Novel approach combining deformable Gaussian splatting and dynamic neural surfaces for monocular dynamic 3D reconstruction."
+  image: "dgns.png"
+  project_page: "#"
