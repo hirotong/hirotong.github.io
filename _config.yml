@@ -23,9 +23,8 @@ name: Jinguang Tong
 position: Ph.D. Candidate
 email: hirotong0715@gmail.com
 description: >-
-  I am a Ph.D. student at the Australian National University, supervised by [Prof. Hongdong Li](https://users.cecs.anu.edu.au/~hongdong/), [Dr. Chuong Nguyen](https://people.csiro.au/N/C/Chuong-Nguyen) and [Prof. Kaihao Zhang](https://zhangkaihao.github.io/) My research focuses on 3D Computer Vision, 3D Reconstruction, and Neural Rendering.
-
-  I received my Master's degree in Optical Engineering from Zhejiang University in 2018 supervised by [Prof. Sailing He](https://scholar.google.com/citations?user=WFETHIUAAAAJ&hl=en), and my B.S. in Electronics Engineering from Tianjin University in 2015.
+  I am a Ph.D. student at the Australian National University, supervised by [Prof. Hongdong Li](https://users.cecs.anu.edu.au/~hongdong/), [Dr. Chuong Nguyen](https://people.csiro.au/N/C/Chuong-Nguyen) and [Prof. Kaihao Zhang](https://zhangkaihao.github.io/). My research focuses on 3D Computer Vision, 3D Reconstruction, and Neural Rendering.
+  I received my Master's degree in Optical Engineering from Zhejiang University supervised by [Prof. Sailing He](https://scholar.google.com/citations?user=WFETHIUAAAAJ&hl=en).
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hirotong.fun" # the base hostname & protocol for your site
 twitter_username:
@@ -39,7 +38,7 @@ plugins:
   - jekyll-feed
 
 sass:
-  style: expanded
+  style: compressed
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
