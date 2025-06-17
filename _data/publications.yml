@@ -55,8 +55,8 @@
   image: "gs2dgs.png"
   image_mouseover: "gs2dgs.mp4"
   # project_page: "#"
-  # arxiv: "#"
-  # github: ""
+  arxiv: "2506.13110"
+  github: "hirotong/GS2DGS"
   authors:
     - jinguang_tong
     - xuesong_li
