@@ -41,7 +41,7 @@
     - jie_hong
     - vivien_rolland
     - lars_petersson
-  venue: "arXiv, 2024"
+  venue: ACM MM, 2025
   description: "Novel approach combining deformable Gaussian splatting and dynamic neural surfaces for monocular dynamic 3D reconstruction."
   image: "dgns.png"
   project_page: "#"
