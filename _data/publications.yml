@@ -34,6 +34,33 @@
 #     - pooleb
 #     - holynski
 
+- id: MVHOI
+  title: "MVHOI: Bridge Multi-View Condition to Complex Human-Object Interaction Video Reenactment via 3D Foundation Model"
+  first_authors:
+    - jinguang_tong
+    - jinbo_wu
+  authors:
+    - kaisiyuan_wang
+    - zhelun_shen
+    - xuan_huang
+    - mochu_xiang
+    - xuesong_li
+    - yingying_li
+    - haocheng_feng
+    - chen_zhao
+    - hang_zhou
+    - wei_he
+    - chuong_nguyen
+    - jingdong_wang
+    - hongdong_li
+  venue: "arXiv, 2026"
+  description: "A two-stage framework for human-object interaction video reenactment that queries a 3D foundation model over multi-view references to generate 3D-aware object priors for DiT-based video generation."
+  image: "mvhoi.png"
+  image_mouseover: "mvhoi.mp4"
+  project_page: "https://mvhoi.hirotong.fun"
+  arxiv: "2603.14686"
+  github: "silence401/MVHOI"
+
 - title: "DGNS: Deformable Gaussian Splatting and Dynamic Neural Surface for Monocular Dynamic 3D Reconstruction"
   authors:
     - xuesong_li
